@@ -1,0 +1,32 @@
+Jelaskan apa itu REST API?
+Apa itu CORS dan bagaimana cara menanganinya di backend?
+Jelaskan perbedaan antara SQL dan NoSQL database
+Apa yang anda ketahui tentang middleware?
+Buat REST API sederhana untuk
+A. register dan login user (gunakan JWT)
+B. CRUD untuk tabel todos dengan field: id, title, description, is_done, user_id
+C. Hanya user yang login boleh CRUD datanya sendiri
+D. Pilihan database : MySql, MongoDB, PostgreSQL
+E. Gunakan bahasa atau framework yang biasa anda gunakan
+F. Buatkan tampilan untuk REST API tersebut dengan framework yang biasa anda gunakan
+
+Untuk mengirim jawab, buat sebuah repository di github, buat readme.md untuk menulis jawaban yang membutuhkan keterangan seperti nomor 1 - 4. Untuk nomor 5, code bisa langsung gabungkan di repository yang sama.
+
+Bagikan tautan repository ke email HRD. dengan format NAMA_TEST_NAGA
+
+
+
+
+
+-1 REST API Representational State Transfer Application Programming Interface, adalah suatu jenis antarmuka yang digunakan untuk mengizinkan komunikasi dan pertukaran data antara berbagai perangkat lunak atau sistem di lingkungan jaringan komputer.
+
+
+-2 CORS (Cross-Origin Resource Sharing) adalah mekanisme yang memungkinkan web server untuk mengizinkan request dari domain berbeda.
+
+  Cara menanganinya di backend: server memberikan izin khusus, misal dengan header Access-Control-Allow-Origin: * supaya bisa diakses dari website lain.
+
+-3 Perbedaan SQL dan NoSQL adalah
+  SQL:Database terstruktur, pakai tabel,ACID properties, cocok untuk data yang teratur salah satunya MySQL
+  NoSQL:Database fleksibel/dinamis, pakai dokumen, key-value, atau graf, BASE properties, cocok untuk data yang besar dan tidak teratur salah satunya Redis
+
+-4 MIDDLEWARE adalah adalah software yang bertindak sebagai perantara antara aplikasi dan sistem operasi. Dalam konteks web development, middleware adalah fungsi yang memiliki akses ke request, response, dan next function dalam siklus request-response.
