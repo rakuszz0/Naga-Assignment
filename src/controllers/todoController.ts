@@ -83,7 +83,6 @@ export const TodoController = {
     },
     handler: async (request: FastifyRequest<GetTodosRoute>, reply: FastifyReply) => {
       try {
-        console.log('kemna',request)
         const { page = 1, limit = 10 } = request.query || {};
 
         const pageNum = Number(page);
